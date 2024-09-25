@@ -25,3 +25,43 @@
     background-color: #096d48; /* Adds an active color */
   }
 
+  /* Below is the coding for my nav bar links */
+
+  .links {
+    background-color: rgb(0, 177, 236);
+  }
+
+  .links ul {
+    margin: 0;
+    padding: 0;
+    background-color: black
+    
+  }
+   
+  .links li {
+      
+      display: inline-block;
+      
+  }
+  
+  .links li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    
+  }
+  
+  li a:hover {
+    background-color: slategray;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  a:hover {
+    background-color: pink;
+  }
+
+  
