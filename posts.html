@@ -6,6 +6,62 @@
     <title>Posts</title>
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.6.0/css/all.css">
+    <style>
+        html, body {
+            height: 100%;
+            width: 100%;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            padding: 0;
+            margin: 0;
+
+            background-color: white;
+        }
+
+        .container1 {
+            width: 90%;
+        }
+
+        .row {
+            width: 60%;
+            background-color: white;
+
+            box-shadow: 0 0 7px 1px black;
+            border-radius: 10px;
+
+            display: flex;
+            align-items: center;
+        }
+
+        .img {
+            width: 15%;
+            padding: 3%;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 50%;
+        }
+
+        .content1 {
+            padding: 5%;
+            padding-left: 3%;
+
+        }
+
+        .name {
+            font-weight: 600;
+        }
+
+        .time {
+            font-size: 0.7em;
+            color: slategray;
+        }
+
+    </style>
 </head>
 <body>
     <header>
@@ -32,6 +88,19 @@
       
         <img src="images/reall.jpg" alt="Image of a house as my logo for REALL" height="300" width="300">
         <h1>Posts</h1>
+
+        <div class="container1">
+            <div class="row">
+                <div class="img">
+                    <img src="images/profile1.jpg" alt="Cartoon picture of first profile person">
+                </div>
+                <div class="content1">
+                    <span class="name">Person 1</span><br>
+                    <span class="time">4 minutes ago</span><br>
+                    <span class="comment">There is a local apple picking event 20 minutes from Bell BLVD</span>
+                </div>
+            </div>
+        </div>
       
     </header>
     <main>
