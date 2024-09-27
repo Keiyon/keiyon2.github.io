@@ -29,6 +29,9 @@
 
   .links {
     background-color: rgb(6, 157, 207);
+    padding-bottom: 10px;
+    padding-top: 0px;
+    overflow: hidden /* Shrinks the my header bar so that my font awesome stuff doesn't overlap */
   }
 
   .links ul {
@@ -114,7 +117,7 @@
   }
 
   /* The bottom coding is for my trending page */
-  
+
   .columntrending {
     float: left;
     width: 20%;
@@ -144,4 +147,38 @@
     height: 39px;
    
     
+  }
+  
+  .logo {
+    text-align: center;
+  }
+
+  .marketbuttons {
+    margin-right: 10px;
+    
+  }
+
+  .rowmarket {
+
+  }
+
+  .columnmarket {
+    float: left;
+    width: 20%;
+    margin-bottom: 14px; /* You can scroll down further */
+    padding-bottom: 100px; /* Created some spacing between the footer and the images */
+    padding-left: 100px; 
+    padding-right: 100px
+
+  }
+
+  .cardmarket {
+    box-shadow: 0 3px 7px 0 black;
+    padding-bottom: 10px;   /* Added some space at the bottom of the card */
+
+  }
+
+  .containermarket {
+    padding: 0 14px;
+    text-align: center;
   }
