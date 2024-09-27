@@ -112,3 +112,36 @@
   a {
     text-decoration: none;  /*Removes hyperlink */
   }
+
+  /* The bottom coding is for my trending page */
+  
+  .columntrending {
+    float: left;
+    width: 20%;
+    margin-bottom: 14px; /* You can scroll down further */
+    padding-bottom: 100px; /* Created some spacing between the footer and the images */
+    padding-left: 100px; 
+    padding-right: 100px
+    
+  }
+
+  .cardtrending {
+    box-shadow: 0 3px 7px 0 black;
+    padding-bottom: 10px;   /* Added some space at the bottom of the card */
+  }
+
+  .containertrending {
+    padding: 0 14px;
+    text-align: center;
+  }
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    background-color: lightblue;
+    width: 100%;
+    height: 39px;
+   
+    
+  }
