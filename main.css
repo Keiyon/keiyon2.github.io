@@ -159,7 +159,10 @@
   }
 
   .rowmarket {
-
+    
+  margin-left: 0%; 
+  margin-right: 10%;
+  padding-top: 50px;
   }
 
   .columnmarket {
@@ -168,7 +171,8 @@
     margin-bottom: 14px; /* You can scroll down further */
     padding-bottom: 100px; /* Created some spacing between the footer and the images */
     padding-left: 100px; 
-    padding-right: 100px
+    padding-right: 100px;
+    
 
   }
 
